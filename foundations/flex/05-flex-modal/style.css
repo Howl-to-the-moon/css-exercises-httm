@@ -9,8 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  text-align: left;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,24 +21,11 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 10px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
   
 }
-
-.container{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px;
-
-  
-}
-
-.fuckit{
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-}
-
 
 .icon {
   color: royalblue;
@@ -52,20 +38,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  margin-right: 15px;
   flex-shrink: 0;
-  align-self: flex-start;
-  
 }
 
-.header{
+.header {
   display: flex;
-  font-size: 24px;
-  font-weight: bold;
-  margin-left: 10px;
-  padding-bottom: 15px;
-  
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .close-button {
@@ -81,23 +63,12 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  flex-shrink: 0;
-  align-self: flex-start;
-  
-}
-
-.text{
-  max-width: 400px;
-  margin-left: 10px;
-  padding-bottom: 15px;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-  
- 
 }
 
 button.continue {
@@ -111,3 +82,8 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+  .text {
+  margin-bottom: 16px;
+}
+
